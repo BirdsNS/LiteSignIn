@@ -38,7 +38,7 @@ public class GUICommand
             SignInDate target = SignInDate.getInstance(new Date());
             if (args.length == 1) {
                 Menu.openGUI(player);
-                MessageUtil.sendCommandMessage(player, "GUI.Normal");
+//                MessageUtil.sendCommandMessage(player, "GUI.Normal");
             } else if (args.length == 2) {
                 if (SignInPluginUtils.hasCommandPermission(sender, "Designated-GUI", true)) {
                     for (int month = 1;month <= 12;month++) {

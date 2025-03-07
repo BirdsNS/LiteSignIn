@@ -59,7 +59,9 @@ public enum SignInSubCommandType
     /**
      * /signin reward
      */
-    REWARD("reward", new RewardCommand(), "Reward");
+    REWARD("reward", new RewardCommand(), "Reward"),
+
+    OPEN("open", new OpenCommand(), "Open");
 
     @Getter
     private final String subCommandName;
